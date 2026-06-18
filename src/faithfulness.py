@@ -1,7 +1,36 @@
 import re
 import os
-from src.extraction import clean_amount, extract_all_facts
-from src.summarizer import summarize_report, SYSTEM_PROMPT
+from src.extraction import clean_amount, build_fact_checklist, structured_facts_from_record
+from src.summarizer import summarize_report, SYSTEM_PROMPT, GROQ_MODEL
+
+
+def _amount_variants(amt_str):
+    """
+    Generates the plausible ways a numeric amount could legitimately appear
+    in a rewritten summary: the original string, the cleaned decimal form,
+    and comma-grouped versions with and without decimals. The original
+    matching logic only checked the raw string and one comma-grouped
+    variant, which rejected perfectly faithful rephrasings (e.g. checklist
+    value "535368.64" not matching summary text "535,368.64" because the
+    comma-grouped variant was only computed when "." was present in the
+    *cleaned* string in a specific way).
+    """
+    variants = {amt_str.lower()}
+    cleaned = clean_amount(amt_str)
+    variants.add(cleaned.lower())
+
+    try:
+        val = float(cleaned)
+        variants.add(f"{val:,.2f}".lower())
+        variants.add(f"{val:.2f}".lower())
+        if val == int(val):
+            variants.add(f"{int(val):,}".lower())
+            variants.add(str(int(val)).lower())
+    except ValueError:
+        pass
+
+    return variants
+
 
 def verify_fact_faithfulness(summary_text, facts_checklist):
     """
@@ -12,64 +41,84 @@ def verify_fact_faithfulness(summary_text, facts_checklist):
     total_facts = 0
     preserved_facts = 0
     missing_facts = []
-    
-    # Verify amounts
+
     for amt in facts_checklist.get("amounts", []):
         total_facts += 1
-        cleaned_amt = clean_amount(amt)
-        # Search for either original string or normalised number
-        if amt.lower() in summary_lower or cleaned_amt in summary_lower:
+        if any(variant in summary_lower for variant in _amount_variants(amt)):
             preserved_facts += 1
         else:
-            # Let's also check if standard formatted numbers match
-            formatted_amt = f"{float(cleaned_amt):,}" if "." in cleaned_amt else cleaned_amt
-            if formatted_amt in summary_text:
-                preserved_facts += 1
-            else:
-                missing_facts.append(f"Amount: {amt}")
-                
-    # Verify dates
+            missing_facts.append(f"Amount: {amt}")
+
     for date in facts_checklist.get("dates", []):
         total_facts += 1
         if date.lower() in summary_lower:
             preserved_facts += 1
         else:
             missing_facts.append(f"Date: {date}")
-            
-    # Verify accounts
+
     for acc in facts_checklist.get("accounts", []):
         total_facts += 1
         if acc.lower() in summary_lower:
             preserved_facts += 1
         else:
             missing_facts.append(f"Account: {acc}")
-            
-    # Verify SWIFT codes
+
     for swift in facts_checklist.get("swift_codes", []):
         total_facts += 1
         if swift.lower() in summary_lower:
             preserved_facts += 1
         else:
             missing_facts.append(f"SWIFT Code: {swift}")
-            
-    # Verify persons
+
     for person in facts_checklist.get("persons", []):
         total_facts += 1
         if person.lower() in summary_lower:
             preserved_facts += 1
         else:
             missing_facts.append(f"Party (Person): {person}")
-            
-    # Verify orgs
+
     for org in facts_checklist.get("orgs", []):
         total_facts += 1
         if org.lower() in summary_lower:
             preserved_facts += 1
         else:
             missing_facts.append(f"Party (Organisation): {org}")
-            
-    score = preserved_facts / total_facts if total_facts > 0 else 1.0
+
+    if total_facts > 0:
+        score = preserved_facts / total_facts
+    else:
+        # There was nothing in the checklist to check at all -- this must
+        # NOT be reported as "fully faithful", since that score isn't
+        # backed by any actual verification. The previous version of this
+        # function returned 1.0 here, which is exactly how reports whose
+        # only narrative content was empty boilerplate (and whose
+        # structured party/account facts were never extracted in the first
+        # place) ended up displaying a misleading 100% badge. Treat an
+        # empty checklist as a failed check instead, so it routes to human
+        # review rather than masquerading as a verified summary.
+        score = 0.0
+        missing_facts = ["No verifiable facts could be extracted from this report -- flagged for manual review."]
+
     return score, missing_facts
+
+
+def _is_real_llm_call(api_key, model_label):
+    """
+    Determines whether a result actually came from a live API call versus
+    the rule-based simulation. The original code only checked
+    `api_key != "your_key_here"`, which meant that even when the API call
+    silently failed and fell back to simulation, the re-prompt loop would
+    still fire and waste a real API call re-prompting against text that was
+    never generated by the model in the first place. We now also check the
+    model label returned by summarize_report, which accurately reflects
+    whether simulation occurred.
+    """
+    if not api_key or api_key == "your_key_here":
+        return False
+    if "Simulated" in (model_label or ""):
+        return False
+    return True
+
 
 async def summarize_and_verify(record, api_key=None, max_attempts=2):
     """
@@ -77,28 +126,36 @@ async def summarize_and_verify(record, api_key=None, max_attempts=2):
     """
     if api_key is None:
         api_key = os.environ.get("GROQ_API_KEY")
-        
-    # Step 1: Extract all must-preserve facts
+
+    # Step 1: Extract all must-preserve facts. Combine NER/regex extraction
+    # over the narrative text with the deterministic structured facts (see
+    # extract_structured_facts in data_loader.py) -- the narrative alone is
+    # typically just boilerplate for this report schema and contains none
+    # of the real party/account/institution information.
     narrative = record.get("narrative_text", "")
-    facts_checklist = extract_all_facts(narrative)
-    
+    structured_facts = structured_facts_from_record(record)
+    facts_checklist = build_fact_checklist(narrative, structured_facts)
+
     # Step 2: Generate initial draft summary
     result = await summarize_report(record, facts_checklist, api_key=api_key)
     summary_text = result["summary_text"]
-    
+    model_label = result["model"]
+
     # Step 3: Run verification loop
     attempts = 0
     reprompted = False
     score, missing_facts = verify_fact_faithfulness(summary_text, facts_checklist)
-    
-    # If the key is missing/mock, the generated summary will be 100% faithful,
-    # but for actual LLM calls we run the re-prompt loop
-    while score < 0.85 and attempts < max_attempts and api_key and api_key != "your_key_here":
+
+    # Only re-prompt when a real LLM call actually produced the text. There
+    # is no point re-prompting against rule-based simulated output, since
+    # the simulation function is deterministic and will produce the same
+    # result every time -- the original code's check let this happen
+    # whenever the API silently failed, burning real API calls for nothing.
+    while score < 0.85 and attempts < max_attempts and _is_real_llm_call(api_key, model_label):
         attempts += 1
         reprompted = True
         print(f"Faithfulness check failed (score: {score:.2%}). Re-prompting attempt {attempts}/{max_attempts}...")
-        
-        # Formulate re-prompt user message
+
         reprompt_content = f"""Your previous summary missed the following key facts from the checklist.
 Please rewrite the summary, ensuring all of these are included verbatim:
 Missing facts: {', '.join(missing_facts)}
@@ -108,35 +165,34 @@ Remember to maintain the exact structured format:
 """
         from groq import AsyncGroq
         client = AsyncGroq(api_key=api_key)
-        
+
         try:
             response = await client.chat.completions.create(
-                model="llama3-70b-8192",
+                model=GROQ_MODEL,
                 max_tokens=400,
                 temperature=0.0,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": f"Original Narrative: {narrative}\nChecklist: {facts_checklist}"},
                     {"role": "assistant", "content": summary_text},
-                    {"role": "user", "content": reprompt_content}
-                ]
+                    {"role": "user", "content": reprompt_content},
+                ],
             )
             summary_text = response.choices[0].message.content.strip()
             score, missing_facts = verify_fact_faithfulness(summary_text, facts_checklist)
         except Exception as e:
-            print(f"Error during re-prompt: {e}")
+            print(f"Error during re-prompt ({type(e).__name__}): {e}")
             break
-            
-    # Parse color-coded sections from structured text
+
+    # Parse structured sections from the pipe-delimited text
     parts = summary_text.split(" | ")
     suspicion_type = parts[0].strip() if len(parts) > 0 else "Unknown"
     parties = parts[1].strip() if len(parts) > 1 else "Unknown"
     transaction_summary = parts[2].strip() if len(parts) > 2 else "Unknown"
     red_flags = parts[3].strip() if len(parts) > 3 else "Unknown"
-    
-    # Calculate word count
+
     word_count = len(summary_text.split())
-    
+
     return {
         "str_id": record.get("str_id", ""),
         "suspicion_type": suspicion_type,
@@ -148,7 +204,7 @@ Remember to maintain the exact structured format:
         "missing_facts": missing_facts,
         "word_count": word_count,
         "processing_time_ms": result["processing_time_ms"],
-        "model": result["model"],
+        "model": model_label,
         "reprompted": reprompted,
-        "human_review": score < 0.85
+        "human_review": score < 0.85,
     }
