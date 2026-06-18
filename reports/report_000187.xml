@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1007</rentity_id>
+  <rentity_branch>BR_037</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>BOKL-2026-000187</entity_reference>
+  <report_id>RPT-2026-000187</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Dharan</town>
+    <city>Dharan</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Koshi</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000074-100118</transactionnumber>
+    <internal_ref_number>INT-187-100118</internal_ref_number>
+    <transaction_location>Dharan</transaction_location>
+    <date_transaction>2022-11-02T12:31:47</date_transaction>
+    <value_date>2022-11-02T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cross-border transfer</transmode_comment>
+    <amount_local>1958960.21</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9525.70</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>HBL</institution_name>
+        <institution_code>HBL</institution_code>
+        <branch>BR_024</branch>
+        <account>NP00000000000098925924</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Stephanie Figueroa</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Stephanie</first_name>
+            <last_name>Figueroa</last_name>
+            <birthdate>1974-05-10T00:00:00</birthdate>
+            <birth_place>Dharan</birth_place>
+            <mothers_name>Victoria Figueroa</mothers_name>
+            <ssn>523946612393</ssn>
+            <passport_number>NP4365390</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9820537422</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>42871 Shawn Way Suite 406</address>
+                <town>Dharan</town>
+                <city>Dharan</city>
+                <zip>27620</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>TEFL teacher</occupation>
+            <tax_number>972750457</tax_number>
+            <tax_reg_number>James Figueroa</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-06-30T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-06-30T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9525.70</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>CITIZENS</institution_name>
+        <institution_code>CITIZENS</institution_code>
+        <branch>BR_036</branch>
+        <account>NP00000000003324912057</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Phillip Rosales</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2024-05-06T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <transaction>
+    <transactionnumber>SAMLD-900000000074-100126</transactionnumber>
+    <internal_ref_number>INT-187-100126</internal_ref_number>
+    <transaction_location>Dharan</transaction_location>
+    <date_transaction>2022-11-02T04:56:22</date_transaction>
+    <value_date>2022-11-02T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>1862074.38</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9054.58</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>HBL</institution_name>
+        <institution_code>HBL</institution_code>
+        <branch>BR_024</branch>
+        <account>NP00000000000098925924</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Stephanie Figueroa</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Stephanie</first_name>
+            <last_name>Figueroa</last_name>
+            <birthdate>1974-05-10T00:00:00</birthdate>
+            <birth_place>Dharan</birth_place>
+            <mothers_name>Victoria Figueroa</mothers_name>
+            <ssn>523946612393</ssn>
+            <passport_number>NP4365390</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9820537422</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>42871 Shawn Way Suite 406</address>
+                <town>Dharan</town>
+                <city>Dharan</city>
+                <zip>27620</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>TEFL teacher</occupation>
+            <tax_number>972750457</tax_number>
+            <tax_reg_number>James Figueroa</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-06-30T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-06-30T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9054.58</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PRABHU</institution_name>
+        <institution_code>PRABHU</institution_code>
+        <branch>BR_009</branch>
+        <account>NP00000000003432925716</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Bradley and Sons</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2026-02-28T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

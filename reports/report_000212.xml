@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1012</rentity_id>
+  <rentity_branch>BR_012</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>SANIMA-2026-000212</entity_reference>
+  <report_id>RPT-2026-000212</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Nepalgunj</town>
+    <city>Nepalgunj</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Lumbini</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000086-100157</transactionnumber>
+    <internal_ref_number>INT-212-100157</internal_ref_number>
+    <transaction_location>Nepalgunj</transaction_location>
+    <date_transaction>2022-11-06T13:57:25</date_transaction>
+    <value_date>2022-11-06T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>21441579.01</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>104262.48</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_007</branch>
+        <account>NP00000000001496496803</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Vanessa Johnson</account_name>
+        <personal_account_type>C</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Vanessa</first_name>
+            <last_name>Johnson</last_name>
+            <birthdate>1971-07-29T00:00:00</birthdate>
+            <birth_place>Nepalgunj</birth_place>
+            <mothers_name>Jennifer Johnson</mothers_name>
+            <ssn>417688435134</ssn>
+            <passport_number>NP8959658</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9873484236</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>10578 Jensen Mews Apt. 116</address>
+                <town>Nepalgunj</town>
+                <city>Nepalgunj</city>
+                <zip>21124</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Homeopath</occupation>
+            <tax_number>738802125</tax_number>
+            <tax_reg_number>Chad Johnson</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-05-19T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-05-19T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>104262.48</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>SBL</institution_name>
+        <institution_code>SBL</institution_code>
+        <branch>BR_004</branch>
+        <account>NP00000000000510302482</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Scott Dominguez</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2022-08-26T00:00:00</opened>
+      </to_account>
+      <to_country>AE</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

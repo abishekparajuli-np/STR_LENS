@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1011</rentity_id>
+  <rentity_branch>BR_041</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>ADBL-2026-000191</entity_reference>
+  <report_id>RPT-2026-000191</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Birgunj</town>
+    <city>Birgunj</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Madhesh</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000080-100123</transactionnumber>
+    <internal_ref_number>INT-191-100123</internal_ref_number>
+    <transaction_location>Birgunj</transaction_location>
+    <date_transaction>2022-11-03T23:17:02</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>ACH transfer</transmode_comment>
+    <amount_local>1887369.33</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9177.58</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_017</branch>
+        <account>NP00000000000653886923</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Tiffany Castillo</account_name>
+        <personal_account_type>A</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Tiffany</first_name>
+            <last_name>Castillo</last_name>
+            <birthdate>1969-09-21T00:00:00</birthdate>
+            <birth_place>Birgunj</birth_place>
+            <mothers_name>Sharon Castillo</mothers_name>
+            <ssn>568916828556</ssn>
+            <passport_number>NP9332616</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9822863748</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>4518 Hurst Extensions Apt. 171</address>
+                <town>Birgunj</town>
+                <city>Birgunj</city>
+                <zip>50560</zip>
+                <country_code>NP</country_code>
+                <state>Madhesh</state>
+              </address>
+            </addresses>
+            <occupation>Physiotherapist</occupation>
+            <tax_number>188813000</tax_number>
+            <tax_reg_number>Jonathan Castillo</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-09-08T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-09-08T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9177.58</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PCBL</institution_name>
+        <institution_code>PCBL</institution_code>
+        <branch>BR_041</branch>
+        <account>NP00000000002788453788</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Stacey Johnson</account_name>
+        <personal_account_type>C</personal_account_type>
+        <opened>2025-03-13T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

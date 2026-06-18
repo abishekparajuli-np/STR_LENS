@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1001</rentity_id>
+  <rentity_branch>BR_031</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>NIMB-2026-000181</entity_reference>
+  <report_id>RPT-2026-000181</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Bharatpur</town>
+    <city>Bharatpur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000071-100110</transactionnumber>
+    <internal_ref_number>INT-181-100110</internal_ref_number>
+    <transaction_location>Bharatpur</transaction_location>
+    <date_transaction>2022-11-03T14:41:23</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>1879848.71</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9141.01</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>PCBL</institution_name>
+        <institution_code>PCBL</institution_code>
+        <branch>BR_046</branch>
+        <account>NP00000000002049746973</account>
+        <currency_code>NPR</currency_code>
+        <account_name>LISA Mullins</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>LISA</first_name>
+            <last_name>Mullins</last_name>
+            <birthdate>1991-10-02T00:00:00</birthdate>
+            <birth_place>Bharatpur</birth_place>
+            <mothers_name>Sarah Mullins</mothers_name>
+            <ssn>443120073701</ssn>
+            <passport_number>NP9629255</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9877574422</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>328 Sean Lake Suite 501</address>
+                <town>Bharatpur</town>
+                <city>Bharatpur</city>
+                <zip>29420</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Housing manager/officer</occupation>
+            <tax_number>921083962</tax_number>
+            <tax_reg_number>Jose Mullins</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2022-07-26T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2022-07-26T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9141.01</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>BOKL</institution_name>
+        <institution_code>BOKL</institution_code>
+        <branch>BR_046</branch>
+        <account>NP00000000002255447227</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jody Hawkins</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2023-09-29T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

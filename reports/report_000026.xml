@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1006</rentity_id>
+  <rentity_branch>BR_026</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>EBL-2026-000026</entity_reference>
+  <report_id>RPT-2026-000026</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Lalitpur</town>
+    <city>Lalitpur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-7147448786-21360</transactionnumber>
+    <internal_ref_number>INT-26-21360</internal_ref_number>
+    <transaction_location>Lalitpur</transaction_location>
+    <date_transaction>2022-10-08T01:10:34</date_transaction>
+    <value_date>2022-10-08T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cash Withdrawal transfer</transmode_comment>
+    <amount_local>20139.30</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>97.93</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_046</branch>
+        <account>NP00000000003315125423</account>
+        <currency_code>NPR</currency_code>
+        <account_name>KATIE Marshall</account_name>
+        <personal_account_type>A</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>KATIE</first_name>
+            <last_name>Marshall</last_name>
+            <birthdate>1969-12-23T00:00:00</birthdate>
+            <birth_place>Lalitpur</birth_place>
+            <mothers_name>Shannon Marshall</mothers_name>
+            <ssn>318143134684</ssn>
+            <passport_number>NP4082437</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9842412719</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>2439 Allen Coves Suite 343</address>
+                <town>Lalitpur</town>
+                <city>Lalitpur</city>
+                <zip>41604</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Engineer, civil (consulting)</occupation>
+            <tax_number>674013918</tax_number>
+            <tax_reg_number>Eric Marshall</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-12-25T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-12-25T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>97.93</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_035</branch>
+        <account>NP00000000003600904550</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Caleb Kelley</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2023-04-23T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <transaction>
+    <transactionnumber>SAMLD-7147448786-26935</transactionnumber>
+    <internal_ref_number>INT-26-26935</internal_ref_number>
+    <transaction_location>Lalitpur</transaction_location>
+    <date_transaction>2022-10-08T09:53:46</date_transaction>
+    <value_date>2022-10-08T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cash Withdrawal transfer</transmode_comment>
+    <amount_local>21794.79</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>105.98</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_046</branch>
+        <account>NP00000000003315125423</account>
+        <currency_code>NPR</currency_code>
+        <account_name>KATIE Marshall</account_name>
+        <personal_account_type>A</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>KATIE</first_name>
+            <last_name>Marshall</last_name>
+            <birthdate>1969-12-23T00:00:00</birthdate>
+            <birth_place>Lalitpur</birth_place>
+            <mothers_name>Shannon Marshall</mothers_name>
+            <ssn>318143134684</ssn>
+            <passport_number>NP4082437</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9842412719</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>2439 Allen Coves Suite 343</address>
+                <town>Lalitpur</town>
+                <city>Lalitpur</city>
+                <zip>41604</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Engineer, civil (consulting)</occupation>
+            <tax_number>674013918</tax_number>
+            <tax_reg_number>Eric Marshall</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-12-25T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-12-25T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>105.98</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_035</branch>
+        <account>NP00000000003600904550</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Caleb Kelley</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2023-04-23T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

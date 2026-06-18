@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1013</rentity_id>
+  <rentity_branch>BR_023</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>MEGA-2026-000273</entity_reference>
+  <report_id>RPT-2026-000273</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Itahari</town>
+    <city>Itahari</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Koshi</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at RBBL examined the account held by Holly Marsh after an internal threshold alert was triggered. Between 2022-11-01 and 2022-11-01, the customer conducted 1 transaction(s) — predominantly cheque deposits — amounting to approximately NPR 11,837,677. All movements were domestic, though timed unusually close together. The principal counterparties observed were Hayes-Watson. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Cyclic Flow. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000168-100218</transactionnumber>
+    <internal_ref_number>INT-273-100218</internal_ref_number>
+    <transaction_location>Itahari</transaction_location>
+    <date_transaction>2022-11-01T11:48:06</date_transaction>
+    <value_date>2022-11-01T00:00:00</value_date>
+    <transmode_code>E</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>11837676.71</amount_local>
+    <t_from_my_client>
+      <from_funds_code>P</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>57562.25</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_013</branch>
+        <account>NP00000000000032795443</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Holly Marsh</account_name>
+        <personal_account_type>D</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Holly</first_name>
+            <last_name>Marsh</last_name>
+            <birthdate>2005-07-31T00:00:00</birthdate>
+            <birth_place>Itahari</birth_place>
+            <mothers_name>Debra Marsh</mothers_name>
+            <ssn>989730276418</ssn>
+            <passport_number>NP1530094</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9895742305</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>4</address_type>
+                <address>7674 Jones Port</address>
+                <town>Itahari</town>
+                <city>Itahari</city>
+                <zip>70687</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>Psychologist, clinical</occupation>
+            <tax_number>387091606</tax_number>
+            <tax_reg_number>Alan Marsh</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-11-22T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-11-22T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>P</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>57562.25</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>EBL</institution_name>
+        <institution_code>EBL</institution_code>
+        <branch>BR_009</branch>
+        <account>NP00000000000323890766</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Hayes-Watson</account_name>
+        <personal_account_type>D</personal_account_type>
+        <opened>2026-04-12T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

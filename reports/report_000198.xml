@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1018</rentity_id>
+  <rentity_branch>BR_048</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>SUNRISE-2026-000198</entity_reference>
+  <report_id>RPT-2026-000198</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Tulsipur</town>
+    <city>Tulsipur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Lumbini</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000088-100134</transactionnumber>
+    <internal_ref_number>INT-198-100134</internal_ref_number>
+    <transaction_location>Tulsipur</transaction_location>
+    <date_transaction>2022-11-05T10:25:04</date_transaction>
+    <value_date>2022-11-05T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cash Deposit transfer</transmode_comment>
+    <amount_local>1872206.75</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9103.85</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>KUMARI</institution_name>
+        <institution_code>KUMARI</institution_code>
+        <branch>BR_006</branch>
+        <account>NP00000000001959371095</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Donna Andrews</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Donna</first_name>
+            <last_name>Andrews</last_name>
+            <birthdate>1996-03-22T00:00:00</birthdate>
+            <birth_place>Tulsipur</birth_place>
+            <mothers_name>Holly Andrews</mothers_name>
+            <ssn>862945402954</ssn>
+            <passport_number>NP5018990</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9815909193</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>77039 Hall Expressway Suite 798</address>
+                <town>Tulsipur</town>
+                <city>Tulsipur</city>
+                <zip>30316</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Cabin crew</occupation>
+            <tax_number>180498909</tax_number>
+            <tax_reg_number>David Andrews</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-02-14T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-02-14T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9103.85</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_007</branch>
+        <account>NP00000000001496496803</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Vanessa Johnson</account_name>
+        <personal_account_type>C</personal_account_type>
+        <opened>2024-05-19T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

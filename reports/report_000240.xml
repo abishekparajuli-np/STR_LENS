@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1000</rentity_id>
+  <rentity_branch>BR_040</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>NABIL-2026-000240</entity_reference>
+  <report_id>RPT-2026-000240</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Nepalgunj</town>
+    <city>Nepalgunj</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Lumbini</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000133-100185</transactionnumber>
+    <internal_ref_number>INT-240-100185</internal_ref_number>
+    <transaction_location>Nepalgunj</transaction_location>
+    <date_transaction>2022-11-04T06:14:38</date_transaction>
+    <value_date>2022-11-04T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>ACH transfer</transmode_comment>
+    <amount_local>12394838.09</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>60271.52</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>EBL</institution_name>
+        <institution_code>EBL</institution_code>
+        <branch>BR_002</branch>
+        <account>NP00000000001107976466</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Gina Glenn</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Gina</first_name>
+            <last_name>Glenn</last_name>
+            <birthdate>1980-01-09T00:00:00</birthdate>
+            <birth_place>Nepalgunj</birth_place>
+            <mothers_name>Lori Glenn</mothers_name>
+            <ssn>788789049332</ssn>
+            <passport_number>NP6110118</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9852635542</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>4263 Stewart Road Suite 217</address>
+                <town>Nepalgunj</town>
+                <city>Nepalgunj</city>
+                <zip>59357</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Records manager</occupation>
+            <tax_number>291360773</tax_number>
+            <tax_reg_number>John Glenn</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-07-01T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-07-01T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>60271.52</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PCBL</institution_name>
+        <institution_code>PCBL</institution_code>
+        <branch>BR_026</branch>
+        <account>NP00000000003562708288</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jennifer White</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2022-08-17T00:00:00</opened>
+      </to_account>
+      <to_country>AE</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

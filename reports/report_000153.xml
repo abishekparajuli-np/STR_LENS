@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1013</rentity_id>
+  <rentity_branch>BR_003</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>MEGA-2026-000153</entity_reference>
+  <report_id>RPT-2026-000153</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Kathmandu</town>
+    <city>Kathmandu</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at RBBL examined the account held by Wesley Williams after an internal threshold alert was triggered. Between 2022-11-03 and 2022-11-03, the customer conducted 1 transaction(s) — predominantly cross-border wires — amounting to approximately NPR 1,815,211. All movements were domestic, though timed unusually close together. The principal counterparties observed were Charles Butler. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Smurfing FanOut. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000045-100068</transactionnumber>
+    <internal_ref_number>INT-153-100068</internal_ref_number>
+    <transaction_location>Kathmandu</transaction_location>
+    <date_transaction>2022-11-03T10:16:49</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>F</transmode_code>
+    <transmode_comment>Cross-border transfer</transmode_comment>
+    <amount_local>1815210.86</amount_local>
+    <t_from_my_client>
+      <from_funds_code>D</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>8826.70</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_027</branch>
+        <account>NP00000000003952574343</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Wesley Williams</account_name>
+        <personal_account_type>C</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Wesley</first_name>
+            <last_name>Williams</last_name>
+            <birthdate>1991-12-13T00:00:00</birthdate>
+            <birth_place>Kathmandu</birth_place>
+            <mothers_name>Melanie Williams</mothers_name>
+            <ssn>829413702844</ssn>
+            <passport_number>NP4224139</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9877252935</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>68666 Vega Field</address>
+                <town>Kathmandu</town>
+                <city>Kathmandu</city>
+                <zip>15098</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Art therapist</occupation>
+            <tax_number>152087035</tax_number>
+            <tax_reg_number>Robert Williams</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-11-17T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-11-17T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>D</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>8826.70</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>CBL</institution_name>
+        <institution_code>CBL</institution_code>
+        <branch>BR_044</branch>
+        <account>NP00000000003006052309</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Charles Butler</account_name>
+        <personal_account_type>A</personal_account_type>
+        <opened>2025-01-30T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

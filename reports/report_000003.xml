@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1003</rentity_id>
+  <rentity_branch>BR_003</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>RBBL-2026-000003</entity_reference>
+  <report_id>RPT-2026-000003</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Hetauda</town>
+    <city>Hetauda</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at KUMARI examined the account held by Cook, Flores and Ray after an internal threshold alert was triggered. Between 2022-10-07 and 2022-10-07, the customer conducted 1 transaction(s) — predominantly cross-border wires — amounting to approximately NPR 1,214,020. Of these, 1 were cross-border, routed to counterparties outside the customer's usual corridor. The principal counterparties observed were Chad Mccarty. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Behavioural Change 2. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-3758118046-1649</transactionnumber>
+    <internal_ref_number>INT-3-1649</internal_ref_number>
+    <transaction_location>Hetauda</transaction_location>
+    <date_transaction>2022-10-07T11:35:42</date_transaction>
+    <value_date>2022-10-07T00:00:00</value_date>
+    <transmode_code>F</transmode_code>
+    <transmode_comment>Cross-border transfer</transmode_comment>
+    <amount_local>1214019.81</amount_local>
+    <t_from_my_client>
+      <from_funds_code>D</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>5903.33</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>KUMARI</institution_name>
+        <institution_code>KUMARI</institution_code>
+        <branch>BR_022</branch>
+        <account>NP00000000002968635055</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Cook, Flores and Ray</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <t_entity>
+          <name>Cook, Flores and Ray</name>
+          <incorporation_legal_form>K</incorporation_legal_form>
+          <incorporation_number>PAN-52761467</incorporation_number>
+          <business>repurpose 24/7 models</business>
+          <phones>
+            <phone>
+              <tph_contact_type>1</tph_contact_type>
+              <tph_communication_type>M</tph_communication_type>
+              <tph_country_prefix>977</tph_country_prefix>
+              <tph_number>9833156117</tph_number>
+            </phone>
+          </phones>
+          <addresses>
+            <address>
+              <address_type>1</address_type>
+              <address>47143 Zachary Common</address>
+              <town>Hetauda</town>
+              <city>Hetauda</city>
+              <zip>73743</zip>
+              <country_code>NP</country_code>
+              <state>Bagmati</state>
+            </address>
+          </addresses>
+          <incorporation_state>Bagmati</incorporation_state>
+          <incorporation_country_code>NP</incorporation_country_code>
+          <incorporation_date>2026-03-07T00:00:00</incorporation_date>
+          <tax_number>847974990</tax_number>
+        </t_entity>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Joshua</first_name>
+            <last_name>King</last_name>
+            <birthdate>1975-01-01T00:00:00</birthdate>
+            <birth_place>Hetauda</birth_place>
+            <ssn>0</ssn>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9833156117</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>1</address_type>
+                <address>47143 Zachary Common</address>
+                <town>Hetauda</town>
+                <city>Hetauda</city>
+                <zip>73743</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Director</occupation>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2026-03-07T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2026-03-07T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>D</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>MXN</foreign_currency_code>
+        <foreign_amount>5903.33</foreign_amount>
+        <foreign_exchange_rate>8.1900</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>SBL</institution_name>
+        <institution_code>SBL</institution_code>
+        <branch>BR_001</branch>
+        <account>NP00000000000310823462</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Chad Mccarty</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2024-01-22T00:00:00</opened>
+      </to_account>
+      <to_country>MX</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

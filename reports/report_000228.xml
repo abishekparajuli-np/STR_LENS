@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1008</rentity_id>
+  <rentity_branch>BR_028</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>PCBL-2026-000228</entity_reference>
+  <report_id>RPT-2026-000228</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Janakpur</town>
+    <city>Janakpur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Madhesh</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000118-100173</transactionnumber>
+    <internal_ref_number>INT-228-100173</internal_ref_number>
+    <transaction_location>Janakpur</transaction_location>
+    <date_transaction>2022-11-04T04:48:08</date_transaction>
+    <value_date>2022-11-04T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>10842606.28</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>52723.59</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_044</branch>
+        <account>NP00000000000732631510</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Sabrina Mccoy</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Sabrina</first_name>
+            <last_name>Mccoy</last_name>
+            <birthdate>1975-04-22T00:00:00</birthdate>
+            <birth_place>Janakpur</birth_place>
+            <mothers_name>Shannon Mccoy</mothers_name>
+            <ssn>300776560683</ssn>
+            <passport_number>NP7870803</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9898763041</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>629 Amber Ford Suite 957</address>
+                <town>Janakpur</town>
+                <city>Janakpur</city>
+                <zip>86283</zip>
+                <country_code>NP</country_code>
+                <state>Madhesh</state>
+              </address>
+            </addresses>
+            <occupation>Local government officer</occupation>
+            <tax_number>407962932</tax_number>
+            <tax_reg_number>Dustin Mccoy</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-11-08T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-11-08T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>52723.59</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>LAXMI</institution_name>
+        <institution_code>LAXMI</institution_code>
+        <branch>BR_016</branch>
+        <account>NP00000000002363580214</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Keller Inc</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2025-07-17T00:00:00</opened>
+      </to_account>
+      <to_country>AE</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

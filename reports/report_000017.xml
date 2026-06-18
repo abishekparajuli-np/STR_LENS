@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1017</rentity_id>
+  <rentity_branch>BR_017</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>CITIZENS-2026-000017</entity_reference>
+  <report_id>RPT-2026-000017</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Kathmandu</town>
+    <city>Kathmandu</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at HBL examined the account held by Denise Barnett after an internal threshold alert was triggered. Between 2022-10-07 and 2022-10-07, the customer conducted 1 transaction(s) — predominantly card payments — amounting to approximately NPR 5,212,784. All movements were domestic, though timed unusually close together. The principal counterparties observed were Joseph Chang. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Cycle. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-8212001718-11831</transactionnumber>
+    <internal_ref_number>INT-17-11831</internal_ref_number>
+    <transaction_location>Kathmandu</transaction_location>
+    <date_transaction>2022-10-07T18:02:58</date_transaction>
+    <value_date>2022-10-07T00:00:00</value_date>
+    <transmode_code>J</transmode_code>
+    <transmode_comment>Credit card transfer</transmode_comment>
+    <amount_local>5212784.37</amount_local>
+    <t_from_my_client>
+      <from_funds_code>D</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>25347.85</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>HBL</institution_name>
+        <institution_code>HBL</institution_code>
+        <branch>BR_037</branch>
+        <account>NP00000000000272217664</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Denise Barnett</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Denise</first_name>
+            <last_name>Barnett</last_name>
+            <birthdate>1979-04-16T00:00:00</birthdate>
+            <birth_place>Kathmandu</birth_place>
+            <mothers_name>Angela Barnett</mothers_name>
+            <ssn>510432907085</ssn>
+            <passport_number>NP4154813</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9847653463</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>4</address_type>
+                <address>5544 Davis Walks</address>
+                <town>Kathmandu</town>
+                <city>Kathmandu</city>
+                <zip>52694</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Surveyor, mining</occupation>
+            <tax_number>465155479</tax_number>
+            <tax_reg_number>John Barnett</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-02-14T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-02-14T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>D</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>25347.85</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>LAXMI</institution_name>
+        <institution_code>LAXMI</institution_code>
+        <branch>BR_017</branch>
+        <account>NP00000000001340831574</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Joseph Chang</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2023-05-23T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

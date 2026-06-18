@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1013</rentity_id>
+  <rentity_branch>BR_033</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>MEGA-2026-000133</entity_reference>
+  <report_id>RPT-2026-000133</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Bhairahawa</town>
+    <city>Bhairahawa</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Lumbini</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at CBL examined the account held by Jeffery Morgan after an internal threshold alert was triggered. Between 2022-11-05 and 2022-11-05, the customer conducted 1 transaction(s) — predominantly cheque deposits — amounting to approximately NPR 1,849,871. All movements were domestic, though timed unusually close together. The principal counterparties observed were Christian Morton. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Smurfing FanOut. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000028-100039</transactionnumber>
+    <internal_ref_number>INT-133-100039</internal_ref_number>
+    <transaction_location>Bhairahawa</transaction_location>
+    <date_transaction>2022-11-05T06:31:28</date_transaction>
+    <value_date>2022-11-05T00:00:00</value_date>
+    <transmode_code>E</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>1849871.11</amount_local>
+    <t_from_my_client>
+      <from_funds_code>P</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>8995.24</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>CBL</institution_name>
+        <institution_code>CBL</institution_code>
+        <branch>BR_039</branch>
+        <account>NP00000000003158200429</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jeffery Morgan</account_name>
+        <personal_account_type>D</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Jeffery</first_name>
+            <last_name>Morgan</last_name>
+            <birthdate>1962-02-20T00:00:00</birthdate>
+            <birth_place>Bhairahawa</birth_place>
+            <mothers_name>Adriana Morgan</mothers_name>
+            <ssn>611028490596</ssn>
+            <passport_number>NP9113391</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9854961499</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>9559 Smith Keys</address>
+                <town>Bhairahawa</town>
+                <city>Bhairahawa</city>
+                <zip>63391</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Psychologist, educational</occupation>
+            <tax_number>145698846</tax_number>
+            <tax_reg_number>Stephen Morgan</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2025-02-23T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2025-02-23T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>P</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>8995.24</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PRIME</institution_name>
+        <institution_code>PRIME</institution_code>
+        <branch>BR_021</branch>
+        <account>NP00000000000905697599</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Christian Morton</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2025-07-06T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

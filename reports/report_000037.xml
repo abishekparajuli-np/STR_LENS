@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1017</rentity_id>
+  <rentity_branch>BR_037</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>CITIZENS-2026-000037</entity_reference>
+  <report_id>RPT-2026-000037</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Itahari</town>
+    <city>Itahari</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Koshi</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at RBBL examined the account held by Kayla Tran after an internal threshold alert was triggered. Between 2022-10-08 and 2022-10-08, the customer conducted 1 transaction(s) — predominantly card payments — amounting to approximately NPR 832,996. All movements were domestic, though timed unusually close together. The principal counterparties observed were Susan Cherry. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Structuring. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-5931070343-29215</transactionnumber>
+    <internal_ref_number>INT-37-29215</internal_ref_number>
+    <transaction_location>Itahari</transaction_location>
+    <date_transaction>2022-10-08T11:18:06</date_transaction>
+    <value_date>2022-10-08T00:00:00</value_date>
+    <transmode_code>J</transmode_code>
+    <transmode_comment>Credit card transfer</transmode_comment>
+    <amount_local>832995.61</amount_local>
+    <t_from_my_client>
+      <from_funds_code>D</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>4050.55</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>RBBL</institution_name>
+        <institution_code>RBBL</institution_code>
+        <branch>BR_014</branch>
+        <account>NP00000000001214793403</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Kayla Tran</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Kayla</first_name>
+            <last_name>Tran</last_name>
+            <birthdate>1964-06-23T00:00:00</birthdate>
+            <birth_place>Itahari</birth_place>
+            <mothers_name>Melissa Tran</mothers_name>
+            <ssn>865979942282</ssn>
+            <passport_number>NP1110487</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9894790542</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>1</address_type>
+                <address>001 Michael Walks Suite 220</address>
+                <town>Itahari</town>
+                <city>Itahari</city>
+                <zip>94504</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>Theatre stage manager</occupation>
+            <tax_number>307938055</tax_number>
+            <tax_reg_number>Cory Tran</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2022-10-02T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2022-10-02T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>D</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>4050.55</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>ADBL</institution_name>
+        <institution_code>ADBL</institution_code>
+        <branch>BR_030</branch>
+        <account>NP00000000001338940611</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Susan Cherry</account_name>
+        <personal_account_type>D</personal_account_type>
+        <opened>2025-05-17T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

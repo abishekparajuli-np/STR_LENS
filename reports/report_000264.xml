@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1004</rentity_id>
+  <rentity_branch>BR_014</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>HBL-2026-000264</entity_reference>
+  <report_id>RPT-2026-000264</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Birgunj</town>
+    <city>Birgunj</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Madhesh</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000159-100209</transactionnumber>
+    <internal_ref_number>INT-264-100209</internal_ref_number>
+    <transaction_location>Birgunj</transaction_location>
+    <date_transaction>2022-11-04T14:27:17</date_transaction>
+    <value_date>2022-11-04T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>12194210.06</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>59295.94</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>PRIME</institution_name>
+        <institution_code>PRIME</institution_code>
+        <branch>BR_034</branch>
+        <account>NP00000000004108124539</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jessica Johnson</account_name>
+        <personal_account_type>C</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Jessica</first_name>
+            <last_name>Johnson</last_name>
+            <birthdate>1988-09-15T00:00:00</birthdate>
+            <birth_place>Birgunj</birth_place>
+            <mothers_name>Valerie Johnson</mothers_name>
+            <ssn>620388397021</ssn>
+            <passport_number>NP7334662</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>L</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9822712720</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>4</address_type>
+                <address>9115 David Course Suite 928</address>
+                <town>Birgunj</town>
+                <city>Birgunj</city>
+                <zip>86275</zip>
+                <country_code>NP</country_code>
+                <state>Madhesh</state>
+              </address>
+            </addresses>
+            <occupation>International aid/development worker</occupation>
+            <tax_number>695886222</tax_number>
+            <tax_reg_number>Raymond Johnson</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-03-20T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-03-20T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>59295.94</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>LAXMI</institution_name>
+        <institution_code>LAXMI</institution_code>
+        <branch>BR_030</branch>
+        <account>NP00000000002654585714</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Julie Thompson</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2022-11-11T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

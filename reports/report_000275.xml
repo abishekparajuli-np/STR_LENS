@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1015</rentity_id>
+  <rentity_branch>BR_025</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>KUMARI-2026-000275</entity_reference>
+  <report_id>RPT-2026-000275</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Janakpur</town>
+    <city>Janakpur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Madhesh</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at CBL examined the account held by Cesar Johnson after an internal threshold alert was triggered. Between 2022-11-03 and 2022-11-03, the customer conducted 1 transaction(s) — predominantly ACH transfers — amounting to approximately NPR 12,188,518. All movements were domestic, though timed unusually close together. The principal counterparties observed were Shannon Johnston. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Cyclic Flow. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000170-100220</transactionnumber>
+    <internal_ref_number>INT-275-100220</internal_ref_number>
+    <transaction_location>Janakpur</transaction_location>
+    <date_transaction>2022-11-03T18:31:07</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>P</transmode_code>
+    <transmode_comment>ACH transfer</transmode_comment>
+    <amount_local>12188517.67</amount_local>
+    <t_from_my_client>
+      <from_funds_code>D</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>59268.26</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>CBL</institution_name>
+        <institution_code>CBL</institution_code>
+        <branch>BR_032</branch>
+        <account>NP00000000001089672029</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Cesar Johnson</account_name>
+        <personal_account_type>C</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Cesar</first_name>
+            <last_name>Johnson</last_name>
+            <birthdate>1964-09-14T00:00:00</birthdate>
+            <birth_place>Janakpur</birth_place>
+            <mothers_name>Michelle Johnson</mothers_name>
+            <ssn>249068767424</ssn>
+            <passport_number>NP7350404</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>L</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9856480126</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>1</address_type>
+                <address>93053 Kramer Flat Suite 669</address>
+                <town>Janakpur</town>
+                <city>Janakpur</city>
+                <zip>84889</zip>
+                <country_code>NP</country_code>
+                <state>Madhesh</state>
+              </address>
+            </addresses>
+            <occupation>Contracting civil engineer</occupation>
+            <tax_number>154570493</tax_number>
+            <tax_reg_number>Richard Johnson</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-03-23T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-03-23T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>D</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>59268.26</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NIMB</institution_name>
+        <institution_code>NIMB</institution_code>
+        <branch>BR_028</branch>
+        <account>NP00000000003672336001</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Shannon Johnston</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2024-02-22T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

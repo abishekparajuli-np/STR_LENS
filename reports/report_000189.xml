@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1009</rentity_id>
+  <rentity_branch>BR_039</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>CBL-2026-000189</entity_reference>
+  <report_id>RPT-2026-000189</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Dharan</town>
+    <city>Dharan</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Koshi</state>
+  </location>
+  <reason>During the branch's periodic transaction-monitoring review, the compliance desk at HBL examined the account held by Stephanie Figueroa after an internal threshold alert was triggered. Between 2022-11-01 and 2022-11-01, the customer conducted 2 transaction(s) — predominantly cash deposits — amounting to approximately NPR 3,818,832. All movements were domestic, though timed unusually close together. The principal counterparties observed were Lisa Wilkins, Jeremy Cole. For context, the customer's KYC file lists a modest declared income profile; in the reviewing officer's judgement the velocity and aggregate value of the funds are not fully consistent with that profile. It is worth noting that no adverse media or sanctions matches were identified at the time of filing, and the customer has been with the institution for some years, which the desk weighed before escalating. Nonetheless, a number of the transfers appear to have been deliberately kept below reporting thresholds and were executed in rapid succession, a pattern the officer considers consistent with Smurfing FanOut. This report is submitted out of an abundance of caution for the compliance unit's further analysis and does not, by itself, constitute a determination of wrongdoing.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000074-100120</transactionnumber>
+    <internal_ref_number>INT-189-100120</internal_ref_number>
+    <transaction_location>Dharan</transaction_location>
+    <date_transaction>2022-11-01T16:02:24</date_transaction>
+    <value_date>2022-11-01T00:00:00</value_date>
+    <transmode_code>A</transmode_code>
+    <transmode_comment>Cash Deposit transfer</transmode_comment>
+    <amount_local>1873121.89</amount_local>
+    <t_from_my_client>
+      <from_funds_code>K</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9108.30</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>HBL</institution_name>
+        <institution_code>HBL</institution_code>
+        <branch>BR_024</branch>
+        <account>NP00000000000098925924</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Stephanie Figueroa</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Stephanie</first_name>
+            <last_name>Figueroa</last_name>
+            <birthdate>1974-05-10T00:00:00</birthdate>
+            <birth_place>Dharan</birth_place>
+            <mothers_name>Victoria Figueroa</mothers_name>
+            <ssn>523946612393</ssn>
+            <passport_number>NP4365390</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9820537422</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>42871 Shawn Way Suite 406</address>
+                <town>Dharan</town>
+                <city>Dharan</city>
+                <zip>27620</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>TEFL teacher</occupation>
+            <tax_number>972750457</tax_number>
+            <tax_reg_number>James Figueroa</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-06-30T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-06-30T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>K</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9108.30</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>CBL</institution_name>
+        <institution_code>CBL</institution_code>
+        <branch>BR_035</branch>
+        <account>NP00000000001613906949</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Lisa Wilkins</account_name>
+        <personal_account_type>C</personal_account_type>
+        <opened>2024-04-21T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <transaction>
+    <transactionnumber>SAMLD-900000000074-100128</transactionnumber>
+    <internal_ref_number>INT-189-100128</internal_ref_number>
+    <transaction_location>Dharan</transaction_location>
+    <date_transaction>2022-11-01T15:59:32</date_transaction>
+    <value_date>2022-11-01T00:00:00</value_date>
+    <transmode_code>E</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>1945710.18</amount_local>
+    <t_from_my_client>
+      <from_funds_code>P</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9461.27</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>HBL</institution_name>
+        <institution_code>HBL</institution_code>
+        <branch>BR_024</branch>
+        <account>NP00000000000098925924</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Stephanie Figueroa</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Stephanie</first_name>
+            <last_name>Figueroa</last_name>
+            <birthdate>1974-05-10T00:00:00</birthdate>
+            <birth_place>Dharan</birth_place>
+            <mothers_name>Victoria Figueroa</mothers_name>
+            <ssn>523946612393</ssn>
+            <passport_number>NP4365390</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>M</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9820537422</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>42871 Shawn Way Suite 406</address>
+                <town>Dharan</town>
+                <city>Dharan</city>
+                <zip>27620</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>TEFL teacher</occupation>
+            <tax_number>972750457</tax_number>
+            <tax_reg_number>James Figueroa</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2024-06-30T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2024-06-30T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>P</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9461.27</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PRABHU</institution_name>
+        <institution_code>PRABHU</institution_code>
+        <branch>BR_015</branch>
+        <account>NP00000000000485400756</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jeremy Cole</account_name>
+        <personal_account_type>A</personal_account_type>
+        <opened>2022-08-22T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

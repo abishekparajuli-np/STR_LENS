@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1005</rentity_id>
+  <rentity_branch>BR_005</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>MBL-2026-000005</entity_reference>
+  <report_id>RPT-2026-000005</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Dharan</town>
+    <city>Dharan</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Koshi</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-2758469152-3304</transactionnumber>
+    <internal_ref_number>INT-5-3304</internal_ref_number>
+    <transaction_location>Dharan</transaction_location>
+    <date_transaction>2022-10-07T12:39:03</date_transaction>
+    <value_date>2022-10-07T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Debit card transfer</transmode_comment>
+    <amount_local>1610735.12</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>7832.41</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>MEGA</institution_name>
+        <institution_code>MEGA</institution_code>
+        <branch>BR_047</branch>
+        <account>NP00000000003628175933</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Porter LLC</account_name>
+        <personal_account_type>B</personal_account_type>
+        <t_entity>
+          <name>Porter LLC</name>
+          <incorporation_legal_form>I</incorporation_legal_form>
+          <incorporation_number>PAN-97211508</incorporation_number>
+          <business>visualize end-to-end communities</business>
+          <phones>
+            <phone>
+              <tph_contact_type>3</tph_contact_type>
+              <tph_communication_type>L</tph_communication_type>
+              <tph_country_prefix>977</tph_country_prefix>
+              <tph_number>9862098558</tph_number>
+            </phone>
+          </phones>
+          <addresses>
+            <address>
+              <address_type>3</address_type>
+              <address>833 Merritt Parks Suite 056</address>
+              <town>Dharan</town>
+              <city>Dharan</city>
+              <zip>99916</zip>
+              <country_code>NP</country_code>
+              <state>Koshi</state>
+            </address>
+          </addresses>
+          <incorporation_state>Koshi</incorporation_state>
+          <incorporation_country_code>NP</incorporation_country_code>
+          <incorporation_date>2025-10-22T00:00:00</incorporation_date>
+          <tax_number>237424296</tax_number>
+        </t_entity>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Gina</first_name>
+            <last_name>Moore</last_name>
+            <birthdate>1975-01-01T00:00:00</birthdate>
+            <birth_place>Dharan</birth_place>
+            <ssn>0</ssn>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>L</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9862098558</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>833 Merritt Parks Suite 056</address>
+                <town>Dharan</town>
+                <city>Dharan</city>
+                <zip>99916</zip>
+                <country_code>NP</country_code>
+                <state>Koshi</state>
+              </address>
+            </addresses>
+            <occupation>Director</occupation>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2025-10-22T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2025-10-22T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>7832.41</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>MEGA</institution_name>
+        <institution_code>MEGA</institution_code>
+        <branch>BR_027</branch>
+        <account>NP00000000003038338293</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Terrence Davis</account_name>
+        <personal_account_type>C</personal_account_type>
+        <opened>2023-05-03T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

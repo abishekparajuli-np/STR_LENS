@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1011</rentity_id>
+  <rentity_branch>BR_031</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>ADBL-2026-000131</entity_reference>
+  <report_id>RPT-2026-000131</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Janakpur</town>
+    <city>Janakpur</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Madhesh</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000013-100037</transactionnumber>
+    <internal_ref_number>INT-131-100037</internal_ref_number>
+    <transaction_location>Janakpur</transaction_location>
+    <date_transaction>2022-11-06T21:04:35</date_transaction>
+    <value_date>2022-11-06T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cheque transfer</transmode_comment>
+    <amount_local>19491953.26</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>94782.17</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>MBL</institution_name>
+        <institution_code>MBL</institution_code>
+        <branch>BR_047</branch>
+        <account>NP00000000004289268885</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Eric Moore</account_name>
+        <personal_account_type>B</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Eric</first_name>
+            <last_name>Moore</last_name>
+            <birthdate>1960-07-14T00:00:00</birthdate>
+            <birth_place>Janakpur</birth_place>
+            <mothers_name>Jennifer Moore</mothers_name>
+            <ssn>925469406903</ssn>
+            <passport_number>NP8159669</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>3</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9859042433</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>09573 Troy Rest Suite 966</address>
+                <town>Janakpur</town>
+                <city>Janakpur</city>
+                <zip>36607</zip>
+                <country_code>NP</country_code>
+                <state>Madhesh</state>
+              </address>
+            </addresses>
+            <occupation>Bookseller</occupation>
+            <tax_number>169768447</tax_number>
+            <tax_reg_number>Jeffery Moore</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2025-02-06T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2025-02-06T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>94782.17</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>CBL</institution_name>
+        <institution_code>CBL</institution_code>
+        <branch>BR_005</branch>
+        <account>NP00000000001705387289</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Dawn Jimenez</account_name>
+        <personal_account_type>A</personal_account_type>
+        <opened>2023-03-30T00:00:00</opened>
+      </to_account>
+      <to_country>AE</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

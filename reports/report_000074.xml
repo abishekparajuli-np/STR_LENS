@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1014</rentity_id>
+  <rentity_branch>BR_024</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>LAXMI-2026-000074</entity_reference>
+  <report_id>RPT-2026-000074</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Hetauda</town>
+    <city>Hetauda</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-9107206798-74108</transactionnumber>
+    <internal_ref_number>INT-74-74108</internal_ref_number>
+    <transaction_location>Hetauda</transaction_location>
+    <date_transaction>2022-10-09T21:05:23</date_transaction>
+    <value_date>2022-10-09T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cross-border transfer</transmode_comment>
+    <amount_local>414754.92</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>CHF</foreign_currency_code>
+        <foreign_amount>2193.31</foreign_amount>
+        <foreign_exchange_rate>189.1000</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>EBL</institution_name>
+        <institution_code>EBL</institution_code>
+        <branch>BR_045</branch>
+        <account>NP00000000000675562966</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Burgess, Lawson and Bates</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <t_entity>
+          <name>Burgess, Lawson and Bates</name>
+          <incorporation_legal_form>K</incorporation_legal_form>
+          <incorporation_number>PAN-84152084</incorporation_number>
+          <business>brand rich solutions</business>
+          <phones>
+            <phone>
+              <tph_contact_type>5</tph_contact_type>
+              <tph_communication_type>L</tph_communication_type>
+              <tph_country_prefix>977</tph_country_prefix>
+              <tph_number>9872565983</tph_number>
+            </phone>
+          </phones>
+          <addresses>
+            <address>
+              <address_type>3</address_type>
+              <address>079 Richardson Mountains</address>
+              <town>Hetauda</town>
+              <city>Hetauda</city>
+              <zip>34019</zip>
+              <country_code>NP</country_code>
+              <state>Bagmati</state>
+            </address>
+          </addresses>
+          <incorporation_state>Bagmati</incorporation_state>
+          <incorporation_country_code>NP</incorporation_country_code>
+          <incorporation_date>2026-01-31T00:00:00</incorporation_date>
+          <tax_number>629624151</tax_number>
+        </t_entity>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Daniel</first_name>
+            <last_name>Mcclure</last_name>
+            <birthdate>1975-01-01T00:00:00</birthdate>
+            <birth_place>Hetauda</birth_place>
+            <ssn>0</ssn>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>L</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9872565983</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>3</address_type>
+                <address>079 Richardson Mountains</address>
+                <town>Hetauda</town>
+                <city>Hetauda</city>
+                <zip>34019</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Director</occupation>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2026-01-31T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2026-01-31T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>CH</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>INR</foreign_currency_code>
+        <foreign_amount>2193.31</foreign_amount>
+        <foreign_exchange_rate>1.6000</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NCC</institution_name>
+        <institution_code>NCC</institution_code>
+        <branch>BR_011</branch>
+        <account>NP00000000002029567130</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Davis, Griffin and Li</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <opened>2025-08-30T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1019</rentity_id>
+  <rentity_branch>BR_009</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>PRIME-2026-000059</entity_reference>
+  <report_id>RPT-2026-000059</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Kathmandu</town>
+    <city>Kathmandu</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Bagmati</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-2737194318-56590</transactionnumber>
+    <internal_ref_number>INT-59-56590</internal_ref_number>
+    <transaction_location>Kathmandu</transaction_location>
+    <date_transaction>2022-10-09T10:13:57</date_transaction>
+    <value_date>2022-10-09T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Debit card transfer</transmode_comment>
+    <amount_local>1570355.74</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>7636.06</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>PRIME</institution_name>
+        <institution_code>PRIME</institution_code>
+        <branch>BR_022</branch>
+        <account>NP00000000002293732159</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Holly Leon</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>F</gender>
+            <title>Ms</title>
+            <first_name>Holly</first_name>
+            <last_name>Leon</last_name>
+            <birthdate>1951-01-30T00:00:00</birthdate>
+            <birth_place>Kathmandu</birth_place>
+            <mothers_name>Megan Leon</mothers_name>
+            <ssn>124848691788</ssn>
+            <passport_number>NP3339787</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>5</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9850516728</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>1</address_type>
+                <address>009 Holmes Shoal</address>
+                <town>Kathmandu</town>
+                <city>Kathmandu</city>
+                <zip>13165</zip>
+                <country_code>NP</country_code>
+                <state>Bagmati</state>
+              </address>
+            </addresses>
+            <occupation>Advertising art director</occupation>
+            <tax_number>298583974</tax_number>
+            <tax_reg_number>Robert Leon</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2023-11-22T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2023-11-22T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>7636.06</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>CITIZENS</institution_name>
+        <institution_code>CITIZENS</institution_code>
+        <branch>BR_001</branch>
+        <account>NP00000000002744862057</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Welch and Sons</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2025-10-22T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>

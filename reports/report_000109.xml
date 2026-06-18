@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report>
+  <rentity_id>1009</rentity_id>
+  <rentity_branch>BR_009</rentity_branch>
+  <submission_code>E</submission_code>
+  <report_code>STR</report_code>
+  <entity_reference>CBL-2026-000109</entity_reference>
+  <report_id>RPT-2026-000109</report_id>
+  <submission_date>2026-06-14T15:42:08</submission_date>
+  <currency_code_local>NPR</currency_code_local>
+  <reporting_person>
+    <gender>M</gender>
+    <title>Mr</title>
+    <first_name>Ram</first_name>
+    <last_name>Sharma</last_name>
+    <birthdate>1980-06-21T00:00:00</birthdate>
+    <ssn>120345678901</ssn>
+    <phones>
+      <phone>
+        <tph_contact_type>3</tph_contact_type>
+        <tph_communication_type>M</tph_communication_type>
+        <tph_country_prefix>977</tph_country_prefix>
+        <tph_number>9801234567</tph_number>
+      </phone>
+    </phones>
+    <occupation>Compliance Officer</occupation>
+  </reporting_person>
+  <location>
+    <address_type>3</address_type>
+    <address>Durbar Marg</address>
+    <town>Ghorahi</town>
+    <city>Ghorahi</city>
+    <zip>44600</zip>
+    <country_code>NP</country_code>
+    <state>Lumbini</state>
+  </location>
+  <reason>Suspicious transaction observed.</reason>
+  <transaction>
+    <transactionnumber>SAMLD-900000000001-100004</transactionnumber>
+    <internal_ref_number>INT-109-100004</internal_ref_number>
+    <transaction_location>Ghorahi</transaction_location>
+    <date_transaction>2022-11-03T09:37:44</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>ACH transfer</transmode_comment>
+    <amount_local>2017508.76</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9810.40</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>CITIZENS</institution_name>
+        <institution_code>CITIZENS</institution_code>
+        <branch>BR_003</branch>
+        <account>NP00000000001196549221</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Eri Lopez</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Eri</first_name>
+            <last_name>Lopez</last_name>
+            <birthdate>1955-02-23T00:00:00</birthdate>
+            <birth_place>Ghorahi</birth_place>
+            <mothers_name>Karen Lopez</mothers_name>
+            <ssn>654985944213</ssn>
+            <passport_number>NP5873097</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9864214467</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>4407 West Hollow Apt. 278</address>
+                <town>Ghorahi</town>
+                <city>Ghorahi</city>
+                <zip>11590</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Runner, broadcasting/film/video</occupation>
+            <tax_number>441972271</tax_number>
+            <tax_reg_number>Matthew Lopez</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2022-07-18T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2022-07-18T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9810.40</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>PCBL</institution_name>
+        <institution_code>PCBL</institution_code>
+        <branch>BR_021</branch>
+        <account>NP00000000003716944848</account>
+        <currency_code>NPR</currency_code>
+        <account_name>James Walton</account_name>
+        <personal_account_type>B</personal_account_type>
+        <opened>2023-04-18T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <transaction>
+    <transactionnumber>SAMLD-900000000001-100006</transactionnumber>
+    <internal_ref_number>INT-109-100006</internal_ref_number>
+    <transaction_location>Ghorahi</transaction_location>
+    <date_transaction>2022-11-03T18:55:13</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cash Deposit transfer</transmode_comment>
+    <amount_local>1927370.31</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9372.09</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>CITIZENS</institution_name>
+        <institution_code>CITIZENS</institution_code>
+        <branch>BR_003</branch>
+        <account>NP00000000001196549221</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Eri Lopez</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Eri</first_name>
+            <last_name>Lopez</last_name>
+            <birthdate>1955-02-23T00:00:00</birthdate>
+            <birth_place>Ghorahi</birth_place>
+            <mothers_name>Karen Lopez</mothers_name>
+            <ssn>654985944213</ssn>
+            <passport_number>NP5873097</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9864214467</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>4407 West Hollow Apt. 278</address>
+                <town>Ghorahi</town>
+                <city>Ghorahi</city>
+                <zip>11590</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Runner, broadcasting/film/video</occupation>
+            <tax_number>441972271</tax_number>
+            <tax_reg_number>Matthew Lopez</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2022-07-18T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2022-07-18T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9372.09</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NIMB</institution_name>
+        <institution_code>NIMB</institution_code>
+        <branch>BR_025</branch>
+        <account>NP00000000000953720781</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Jenna Ramirez</account_name>
+        <personal_account_type>D</personal_account_type>
+        <opened>2024-12-25T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <transaction>
+    <transactionnumber>SAMLD-900000000001-100014</transactionnumber>
+    <internal_ref_number>INT-109-100014</internal_ref_number>
+    <transaction_location>Ghorahi</transaction_location>
+    <date_transaction>2022-11-03T12:53:26</date_transaction>
+    <value_date>2022-11-03T00:00:00</value_date>
+    <transmode_code>Z</transmode_code>
+    <transmode_comment>Cash Deposit transfer</transmode_comment>
+    <amount_local>1972950.57</amount_local>
+    <t_from_my_client>
+      <from_funds_code>Z</from_funds_code>
+      <from_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9593.73</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </from_foreign_currency>
+      <from_account>
+        <institution_name>CITIZENS</institution_name>
+        <institution_code>CITIZENS</institution_code>
+        <branch>BR_003</branch>
+        <account>NP00000000001196549221</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Eri Lopez</account_name>
+        <personal_account_type>Z</personal_account_type>
+        <signatory>
+          <is_primary>true</is_primary>
+          <t_person>
+            <gender>M</gender>
+            <title>Mr</title>
+            <first_name>Eri</first_name>
+            <last_name>Lopez</last_name>
+            <birthdate>1955-02-23T00:00:00</birthdate>
+            <birth_place>Ghorahi</birth_place>
+            <mothers_name>Karen Lopez</mothers_name>
+            <ssn>654985944213</ssn>
+            <passport_number>NP5873097</passport_number>
+            <passport_country>NP</passport_country>
+            <nationality1>NP</nationality1>
+            <residence>NP</residence>
+            <phones>
+              <phone>
+                <tph_contact_type>1</tph_contact_type>
+                <tph_communication_type>F</tph_communication_type>
+                <tph_country_prefix>977</tph_country_prefix>
+                <tph_number>9864214467</tph_number>
+              </phone>
+            </phones>
+            <addresses>
+              <address>
+                <address_type>2</address_type>
+                <address>4407 West Hollow Apt. 278</address>
+                <town>Ghorahi</town>
+                <city>Ghorahi</city>
+                <zip>11590</zip>
+                <country_code>NP</country_code>
+                <state>Lumbini</state>
+              </address>
+            </addresses>
+            <occupation>Runner, broadcasting/film/video</occupation>
+            <tax_number>441972271</tax_number>
+            <tax_reg_number>Matthew Lopez</tax_reg_number>
+          </t_person>
+          <role>A</role>
+        </signatory>
+        <opened>2022-07-18T00:00:00</opened>
+        <balance>0.00</balance>
+        <date_balance>2022-07-18T00:00:00</date_balance>
+        <status_code>A</status_code>
+      </from_account>
+      <from_country>GB</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>Z</to_funds_code>
+      <to_foreign_currency>
+        <foreign_currency_code>GBP</foreign_currency_code>
+        <foreign_amount>9593.73</foreign_amount>
+        <foreign_exchange_rate>205.6500</foreign_exchange_rate>
+      </to_foreign_currency>
+      <to_account>
+        <institution_name>NIMB</institution_name>
+        <institution_code>NIMB</institution_code>
+        <branch>BR_045</branch>
+        <account>NP00000000001790122221</account>
+        <currency_code>NPR</currency_code>
+        <account_name>Ryan Cox</account_name>
+        <personal_account_type>D</personal_account_type>
+        <opened>2023-01-29T00:00:00</opened>
+      </to_account>
+      <to_country>GB</to_country>
+    </t_to>
+    <comments>Report filed by reporting entity.</comments>
+  </transaction>
+  <report_indicators>
+    <indicator>OD</indicator>
+  </report_indicators>
+</report>
